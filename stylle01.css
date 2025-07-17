@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 20px 10px;
+}
+body{
+    margin: 20px;
+    background-color:#201b2c;
+    color: #77ffc0;
+    padding: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-dev{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quiz-login{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rodape-dev{
+   
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    text-align: center;
+    padding: 40px;
+}
+
+.dev h1{
+ font-size: 50px;
+}
+
+.dev a{
+    padding: 50px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+.dev a:hover{
+    color: #ffffff62;
+    transform: scale(1.05);
+}
+
+.login h1{
+   font-size: 100px;
+}
+
+.login h3{
+  font-size: 30px;
+  padding: 20px;
+}
+.login p{
+  font-size: 23px;
+  padding: 20px;
+  margin: 10px;
+  text-align: initial;
+}
+
+.img-dev{
+    width: 700px;
+    height: 700px;
+}
+
+.quiz-login{
+    font-size: 25px;
+}
+
+
