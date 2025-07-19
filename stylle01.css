@@ -70,14 +70,22 @@ body{
 .quiz-login h2{
     font-size: 30px;
 }
+
 .quiz-login label{
-    text-align: justify;
-    font-size: 19px;
+    font-size: 20px;
 }
+
 .quiz-login input{
-    padding: 10px 150px;
-    margin: 20px;
+   padding: 15px 100px;
+   border: none;
+   border-radius: 10px;
+   margin: 10px;
+}
+
+.quiz-login form{
     text-align: justify;
+    margin: 20px;
+    padding: 20px;
 }
 
 
