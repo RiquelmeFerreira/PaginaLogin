@@ -23,7 +23,6 @@ body{
 }
 
 .rodape-dev{
-   
     text-align: center;
 }
 
@@ -68,8 +67,17 @@ body{
     height: 700px;
 }
 
-.quiz-login{
-    font-size: 25px;
+.quiz-login h2{
+    font-size: 30px;
+}
+.quiz-login label{
+    text-align: justify;
+    font-size: 19px;
+}
+.quiz-login input{
+    padding: 10px 150px;
+    margin: 20px;
+    text-align: justify;
 }
 
 
