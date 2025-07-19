@@ -42,6 +42,19 @@ body{
  background-color: #fff;
 }
 
+.btn-dev{
+    padding: 25px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: #77ffc0;
+}
+
+.btn-dev:hover{
+    box-shadow: 0 0 8px #77ffc08c;
+    transform: scale(1.05);
+}
+
 .dev a{
     padding: 50px;
     text-decoration: none;
