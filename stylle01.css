@@ -110,5 +110,26 @@ body{
     margin: 20px;
     padding: 20px;
 }
+.quiz-login hr{
+    border: none;
+    border-top: 2px solid #77ffc0;
+    padding: 20px;
+}
+
+@media screen and (max-width:1000px) {
+    body{
+    align-items: center;
+    flex-direction: column;
+    } 
+    .dev button{
+      display:none;
+      margin: 20px;
+    }
+    .dev ul{
+        display:none;
+        padding: 10px;
+    }
+
+}
 
 
