@@ -75,6 +75,7 @@ body{
     box-shadow: 0 0 8px #77ffc09f;
 }
 .text input{
+    text-align: center;
     display: flex;
     justify-content: center;
     padding: 15px 50px;
@@ -116,4 +117,52 @@ p{
     text-align: center;
     white-space: nowrap;
     font-family: Arial, Helvetica, sans-serif
+}
+
+@media screen and (max-width:900px){
+ .main-login{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 1500px;
+ }
+ .left-login{
+    width:500px ;
+    height:550px;
+    padding: 50px ;
+ }
+ .left-login h1{
+    padding: 20px;
+    margin: 10px;
+ }
+ .left-login img{
+   width: 450px;
+   height: 450px;
+   padding: 50px;
+ }
+ .rigth-login{
+   width: 550px;
+   height: 700px; 
+   padding: 100px;
+ }
+ .rigth-login h1{
+    font-size: 42px;
+    padding: 20px;
+ }
+ .text a{
+    font-size: 18px;
+ }
+
+ .btn-login{
+    padding: 20px 50px;
+    font-size: 15px;
+ }
+ .link-login p{
+    font-size: 18px;
+ }
+ .text a{
+    font-size: 18px;
+ }
+
 }
