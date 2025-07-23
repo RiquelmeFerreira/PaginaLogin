@@ -118,16 +118,43 @@ body{
 
 @media screen and (max-width:1000px) {
     body{
+    text-align: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
     } 
+    .dev{
+      display: flex;
+    }
+    .dev img{
+        width: 150px;
+        height: 150px;
+    }
     .dev button{
-      display:none;
-      margin: 20px;
+      margin: 10px;
+      padding: 20px 20px;
     }
     .dev ul{
         display:none;
         padding: 10px;
+    }
+    .login{
+        display: flow-root;
+    }
+    .login h3{
+        font-size: 30px;
+        text-align: start;
+    }
+    .img-dev{
+        width: 500px;
+        height: 500px;
+        
+    }
+    .login p{
+        font-size: 12px;
+        display: none;
+    }
+    .quiz-login{
+        text-align: center;
     }
 
 }
