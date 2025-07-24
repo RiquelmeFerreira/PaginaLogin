@@ -172,7 +172,10 @@ body{
     .quiz-login input{
         padding: 20px 120px;
     }
-
+    .quiz-login h3{
+        font-size: 25px;
+        width: 100%;
+    }
 }
 
 
