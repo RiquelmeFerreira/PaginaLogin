@@ -124,8 +124,8 @@ p{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 300px;
-    height: 1500px;
+    width: 52vh;
+    height: 300vw;
  }
  .left-login{
     width:500px ;
