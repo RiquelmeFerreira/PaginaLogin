@@ -96,6 +96,7 @@ body{
 
 .quiz-login label{
     font-size: 20px;
+    text-align: justify;
 }
 
 .quiz-login input{
@@ -103,6 +104,7 @@ body{
    border: none;
    border-radius: 10px;
    margin: 10px;
+   outline: none;
 }
 
 .quiz-login form{
@@ -114,6 +116,7 @@ body{
     border: none;
     border-top: 2px solid #77ffc0;
     padding: 20px;
+    margin: 20px;
 }
 
 @media screen and (max-width:1000px) {
@@ -137,24 +140,37 @@ body{
         display:none;
         padding: 10px;
     }
-    .login{
-        display: flow-root;
-    }
     .login h3{
-        font-size: 30px;
+        font-size: 26px;
         text-align: start;
     }
     .img-dev{
-        width: 500px;
-        height: 500px;
-        
+        width: 300px;
+        height: 300px;
+        align-items: center; 
+        text-align: center
     }
     .login p{
         font-size: 12px;
-        display: none;
+        width: 100%;
     }
-    .quiz-login{
-        text-align: center;
+    .flex{
+        flex-direction: column;
+        align-items: center;
+        text-align: right;
+    }
+    .quiz-login h2{
+        font-size: 25px;
+        text-align: start;
+        width: 100%;
+    }
+    .quiz-login label{
+        font-size: 18px;
+        text-align: right;
+        width: 50%;
+    }
+    .quiz-login input{
+        padding: 20px 120px;
     }
 
 }
