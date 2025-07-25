@@ -1,6 +1,7 @@
 *{
    margin: 0;
    padding: 20px 20px;
+   box-sizing: content-box;
 }
 
 body{
@@ -78,7 +79,7 @@ body{
     text-align: center;
     display: flex;
     justify-content: center;
-    padding: 15px 50px;
+    padding: 20px 100px;
     margin: 20px;
 }
 .btn-login{
