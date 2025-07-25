@@ -1,3 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    background-color: #000;
+    color: #77ffc0;
+}
+.flex{
+    display: flex;
+}
+ header img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    align-items: center;
+ }
+ .dash{
+    width: 220px;
+    background-color: #111;
+    padding: 20px;
+    min-height: 100vh;
+ }
+ .dash h2{
+      font-size: 30px;
+      margin-bottom: 30px;
+      color: #fff;
+ }
+ .dash h2 span{
+    color: #77ffc0;
+ }
+ .dash li{
+    padding: 22px;
+    cursor: pointer;
+ }
 
 
 
