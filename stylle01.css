@@ -10,33 +10,38 @@ body{
     background-color: #000;
     color: #77ffc0;
 }
-.flex{
-    display: flex;
-}
- header img{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    align-items: center;
- }
  .dash{
-    width: 220px;
+    width: 250px;
     background-color: #111;
     padding: 20px;
     min-height: 100vh;
+    display: grid;
  }
- .dash h2{
+ .lateral h2{
       font-size: 30px;
       margin-bottom: 30px;
       color: #fff;
  }
- .dash h2 span{
+ .lateral h2 span{
     color: #77ffc0;
  }
- .dash li{
+ .lateral li{
     padding: 22px;
     cursor: pointer;
  }
+.inter-dash{
+   width:100vw;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+.inter-dash{
+   font-size: 25px;
+}
+.inter-dash h2 span{
+   color: #fff;
+}
+
 
 
 
