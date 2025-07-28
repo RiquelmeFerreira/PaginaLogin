@@ -51,5 +51,26 @@ li:hover{
    width: 500px;
    height: 500px; 
 }
-
+.LadoB p{
+    border-bottom: 2px solid #77ffc0;
+    padding: 10px;
+}
+.discord h6{
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+}
+.discord i{
+  font-size: 80px;
+  padding: 60px;
+  cursor: pointer;
+}
+.social h6{
+    font-size: 20px;
+    color: #fff;
+    padding: 70px;
+}
+.social i{
+    font-size: 30px
+}
 
