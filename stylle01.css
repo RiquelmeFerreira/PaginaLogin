@@ -31,10 +31,14 @@ body{
 .LadoA li{
     padding: 25px;
     color: #ffffffcb;
+    cursor: pointer;
 }
 li:hover{
    color: #77ffc0;
    transform: scale(1.05);
+}
+.LadoA i{
+    color: #77ffc0;
 }
 .LadoB{
     text-align: center;
