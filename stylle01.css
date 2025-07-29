@@ -72,12 +72,77 @@ li:hover{
 .social h6{
     font-size: 20px;
     color: #fff;
-    padding: 20px 70px;
+    padding: 20px 100px;
 }
 .social i{
-    font-size: 30px;
-    padding: 20px 5px;
+    font-size: 26px;
+    padding: 20px 10px;
+    width: 50%;
     cursor: pointer;
+}
+.social ul{
+    padding: 50px 10px;
+}
+.rodape{
+    display: flex;
+}
+.empresa h6{
+    font-size: 17px;
+    color: #fff;
+    padding: 20px 80px;
+}
+.empresa a{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffffcb;
+    cursor: pointer;
+}
+.empresa a:hover{
+    color: #77ffc0;
+    transform: scale(1.05);
+}
+.recursos h6{
+    font-size: 17px;
+    color: #fff;
+    padding: 20px 80px;
+}
+.recursos a{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffffcb;
+    cursor: pointer; 
+}
+.recursos a:hover{
+    color: #77ffc0;
+    transform: scale(1.05);
+}
+.politica h6{
+    font-size: 17px;
+    color: #fff;
+    padding: 20px 80px;
+}
+.politica a{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffffcb;
+    cursor: pointer; 
+}
+.politica a:hover{
+    color: #77ffc0;
+    transform: scale(1.05);
+}
+.logo-dev h1{
+    font-size: 250px;
+    text-align: center;
+}
+.logo-dev span{
+    color: #fff;
+}
+.logo-dev{
+    border-bottom: 2px solid #77ffc0;
 }
 
 
