@@ -55,6 +55,10 @@ li:hover{
     border-bottom: 2px solid #77ffc0;
     padding: 10px;
 }
+.icones{
+    display: flex;
+    padding: 50px;
+}
 .discord h6{
     color: #fff;
     font-size: 20px;
@@ -68,9 +72,12 @@ li:hover{
 .social h6{
     font-size: 20px;
     color: #fff;
-    padding: 70px;
+    padding: 20px 70px;
 }
 .social i{
-    font-size: 30px
+    font-size: 30px;
+    padding: 20px 5px;
+    cursor: pointer;
 }
+
 
