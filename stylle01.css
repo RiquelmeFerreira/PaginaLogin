@@ -72,6 +72,11 @@ li:hover{
   font-size: 80px;
   padding: 60px;
   cursor: pointer;
+  color: #77ffc0;
+}
+.discord i:hover{
+  color: #fff;
+  transform: scale(1.05);
 }
 .social h6{
     font-size: 20px;
@@ -83,6 +88,11 @@ li:hover{
     padding: 20px 10px;
     width: 50%;
     cursor: pointer;
+    color: #77ffc0;
+}
+.social i:hover{
+    color: #fff;
+    transform: scale(1.05);
 }
 .social ul{
     padding: 50px 10px;
