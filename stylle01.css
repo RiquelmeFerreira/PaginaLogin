@@ -57,8 +57,43 @@ li:hover{
 }
 .LadoB p{
     border-bottom: 2px solid #77ffc0;
-    padding: 10px;
+    padding: 20px;
 }
+.quiz{
+    max-width: 600px;
+    background-color: #353535a4;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+}
+.quiz h1{
+    font-size: 35px;
+    text-align: center;
+}
+.quiz h1 span{
+    color: #fff;
+}
+.quiz-form{
+    margin-bottom: 20px;
+}
+.quest label{
+    display: block;
+    margin: 8px 0;
+    cursor: pointer;
+}
+.button input{
+    background-color: #77ffc0;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.button input:hover{
+    transform: scale(1.05);
+}
+
 .icones{
     display: flex;
     padding: 50px;
