@@ -5,3 +5,31 @@ body{
     background-color: black;
     color: rgb(71, 0, 138);
 }
+
+.interface{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.interface h1{
+    font-size: 60px;  
+}
+
+.interface h1 span{
+    color: white;
+}
+
+.login{
+    text-align: center;
+}
+
+.login input{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
