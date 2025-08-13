@@ -21,15 +21,30 @@ body{
     color: white;
 }
 
+.interface h3 span{
+    color: white;
+}
+
 .login{
     text-align: center;
+    width: 600px;
+    height: 800px;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: blueviolet;
 }
 
 .login input{
-    display: flex;
     text-align: center;
-    justify-content: center;
-    padding: 10px 20px;
+    padding: 15px 100px;
+    gap: 20px;
     border: none;
     border-radius: 10px;
+    margin: auto;
+}
+.login h4{
+    color: #47008a;
+    font-size: 30px;
 }
