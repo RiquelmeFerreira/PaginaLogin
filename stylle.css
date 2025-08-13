@@ -1,6 +1,6 @@
 body{
     padding: 0;
-    margin: 0;
+    margin: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: black;
     color: rgb(71, 0, 138);
@@ -8,9 +8,8 @@ body{
 
 .interface{
     text-align: center;
-    justify-content: center;
-    padding: 20px;
-    margin: 20px;
+    padding: 30px;
+    margin: 30px;
 }
 
 .interface h1{
@@ -21,6 +20,11 @@ body{
     color: white;
 }
 
+.interface h3{
+    font-size: 25px;
+    padding: 20px;
+}
+
 .interface h3 span{
     color: white;
 }
@@ -28,7 +32,7 @@ body{
 .login{
     text-align: center;
     width: 600px;
-    height: 800px;
+    height: 600px;
     gap: 20px;
     padding: 30px;
     border-radius: 10px;
@@ -38,13 +42,57 @@ body{
 
 .login input{
     text-align: center;
-    padding: 15px 100px;
-    gap: 20px;
-    border: none;
+    padding: 15px 130px;
+    border: 0;
     border-radius: 10px;
     margin: auto;
+    margin-top: 12px;/*Tag que tem uma função parecida com o margin e padding*/
+    outline: 0;/*Tag para tira bordas dos input*/
 }
+
+.login input[type=submit]{
+    background-color: #47008a;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.login input[type=submit]:hover{
+    background-color: #47008a;
+    transform: scale(1.05);
+}
+
 .login h4{
     color: #47008a;
     font-size: 30px;
 }
+.backparte i{
+    padding: 10px 10px;
+    font-size: 25px;
+}
+.backparte a{
+    cursor: pointer;
+}
+
+.links a{
+    text-decoration: none;
+}
+.links h6{
+    font-size: 18px;
+}
+
+footer a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px; 
+    margin: 12px;
+    color: rgba(255, 255, 255, 0.267);
+    font-size: 15px;
+}
+
+footer a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
